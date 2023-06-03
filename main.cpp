@@ -49,7 +49,7 @@ void commitKeybind ( int key, int modifier ) {
 int main () {
 
     // Variables for the currently active key and modifier.
-    int activeKey, activeModifier
+    int activeKey, activeModifier;
 
     // Buffer keypress to avoid spam.
     int bufferKey;
